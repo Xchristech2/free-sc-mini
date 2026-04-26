@@ -71,7 +71,7 @@ const config = {
   OTP_EXPIRY: 300000,
   OWNER_NUMBER: process.env.OWNER_NUMBER || '263714757857',
   CHANNEL_LINK: 'https://whatsapp.com/channel/0029VbBvGgyFsn0alyIDjw0z',
-  BOT_NAME: 'GAAJJ-MD',
+  BOT_NAME: 'GAAJU-MD',
   BOT_VERSION: '1.0.2',
   OWNER_NAME: 'ᴄʜʀɪs ɢᴀᴀᴊᴜ',
   IMAGE_PATH: 'https://files.catbox.moe/fptw1m.jpg',
@@ -82,7 +82,7 @@ const config = {
 // ---------------- MONGO SETUP ----------------
 
 const MONGO_URI = process.env.MONGO_URI || 'mongodb+srv://malvintech11_db_user:0SBgxRy7WsQZ1KTq@cluster0.xqgaovj.mongodb.net/?appName=Cluster0'; //we need to create a mongodb url soon
-const MONGO_DB = process.env.MONGO_DB || 'Free_Mini';
+const MONGO_DB = process.env.MONGO_DB || 'GAAJU_Mini';
 
 let mongoClient, mongoDB;
 let sessionsCol, numbersCol, adminsCol, newsletterCol, configsCol, newsletterReactsCol;
